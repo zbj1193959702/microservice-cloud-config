@@ -4,22 +4,22 @@ spring:
     active: dev # 激活开发环境配置
 --- 
 server: 
-  port: 6001 #端口号 
+  port: 6001  #端口号 
 spring: 
-  profiles: dev # 开发环境 
+  profiles: dev  # 开发环境 
   application: 
     name: microservice-config-eureka
     
 eureka: 
   instance: 
-    hostname: eureka6001.com 
+    hostname: eureka6001.com
   client: 
-    registerWithEureka: false 
-    fetchRegistry: false 
+    register-With-Eureka: false
+    fetchRegistry: false
     serviceUrl: 
-      defaultZone: http://eureka6001.com:6001/eureka/ 
+      defaultZone: http://eureka6001.com:6001/eureka/
   server: 
-    enable-self-preservation: false 
+    enable-self-preservation: false
     #禁用自我保护机制***************** 
 --- 
 server: 
@@ -31,10 +31,10 @@ spring:
   
 eureka: 
   instance: 
-    hostname: eureka6001.com 
+    hostname: eureka6001.com
   client: 
-    registerWithEureka: false 
-    fetchRegistry: false 
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl: 
       defaultZone: http://eureka6001.com:6001/eureka/ 
   server: 
