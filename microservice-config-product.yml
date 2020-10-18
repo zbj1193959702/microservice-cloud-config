@@ -36,7 +36,7 @@ eureka:
     prefer-ip-address: true 
 
 emp: 
-  name: Lecwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  name: Lecwwwwwwwwww
 --- 
 server: 
   port: 8001 
